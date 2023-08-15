@@ -6,6 +6,8 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 1
 ---
+
+Here is a list of my publications....
 <!-- _pages/publications.md -->
 <div class="publications">
 
