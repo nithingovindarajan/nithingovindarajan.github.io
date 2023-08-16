@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.kuleuven.be/wieiswie/nl/person/00129836'>Postdoctoral researcher; Dynamical Systems, Signal Processing and Data Analytics (STADIUS); KU Leuven</a>.
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Kasteelpark Arenberg 10 - bus 2446/p>
+    <p>3001 Leuven, Belgium</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
