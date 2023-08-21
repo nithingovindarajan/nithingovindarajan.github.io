@@ -8,3 +8,4 @@ nav_order: 2
 ---
 
 
+1. See this ([pdf](/assets/pdf/IPAM_splines.pdf))
