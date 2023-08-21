@@ -19,8 +19,12 @@ nav_order: 1
 #### Conference proceedings 
 1. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2023, September). [Overdetermined systems of polynomial equations: tensor-based solution and application](https://kuleuven.limo.libis.be/discovery/search?query=any,contains,LIRIAS4090734&tab=LIRIAS&search_scope=lirias_profile&vid=32KUL_KUL:Lirias&offset=0). Proceedings of EUSIPCO 2023, Helsinki, Finland. ([PDF]())
 2. Chandrasekaran, S., Govindarajan, N., & Rajagopal, A. (2018, July). [Fast Algorithms for Displacement and Low-Rank Structured Matrices](https://dl.acm.org/doi/10.1145/3208976.3209025). In Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation (pp. 17-22). ([PDF](https://dl.acm.org/doi/pdf/10.1145/3208976.3209025?casa_token=AkwKB8oYb_cAAAAA:gG9NI68Pt1hu4kNi5QRDJI_4ZaZMbOxzFsLOSOAGmyPSuRNlei1TwfNPj_VSv7me-iO_jotyqBG5))
-3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE.
+3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE. ([pdf](https://arxiv.org/pdf/1608.08734.pdf))
 
 #### Preprints & technical reports
 1. Govindarajan, N.,  Widdershoven, R.,  Chandrasekaran, S. (2023). A fast algorithm for computing Macaulay nullspaces of bivariate polynomial systems. ESAT Tech Report 23-16.  ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf))
 2. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). arXiv preprint arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
+
+
+#### Dissertations
+1. Govindarajan, N. (2018). [Periodic approximations and spectral analysis of the Koopman operator: theory and applications](https://www.proquest.com/openview/8460f34e200557d7601c851619e1e108/1?pq-origsite=gscholar&cbl=18750&diss=y). PhD thesis. University of California Santa Barbara ([PDF](https://escholarship.org/content/qt7bf6218t/qt7bf6218t.pdf))
