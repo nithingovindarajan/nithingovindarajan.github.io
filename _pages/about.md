@@ -9,8 +9,8 @@ profile:
   image: prof-pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>Kasteelpark Arenberg 10 - bus 2446/p>
+    <p>Room 04.13</p>
+    <p>Kasteelpark Arenberg 10</p>
     <p>3001 Leuven, Belgium</p>
 
 news: true  # includes a list of news items
