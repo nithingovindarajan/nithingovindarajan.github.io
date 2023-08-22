@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses (co-)taught by me over the years.
 nav: true
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+1. At KU Leuven as a co-instructor  ``Numerieke modellering & benadering'' (in Dutch). In particular, my responbility was to cover the course material on Eigenvalue algorithms
+2. At KU Leuven I have been a teaching assistant
+3. I have co-organized and co-taught the together with S. Chandrasekaran
+3. I have taught the course Numerical Mathematics for one semester 
+4. As a PhD student, I have been a teaching assistant for the following courses in UCSB:
