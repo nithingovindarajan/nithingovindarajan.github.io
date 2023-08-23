@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.kuleuven.be/wieiswie/nl/person/00129836'>Postdoctoral researcher; Dynamical Systems, Signal Processing and Data Analytics (STADIUS); KU Leuven</a>.
+subtitle: <a href='https://www.kuleuven.be/wieiswie/nl/person/00129836'>Postdoctoral researcher, STADIUS, KU Leuven</a>.
 
 profile:
   align: right
@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am postdoctoral researcher at the  [Dynamical Systems, Signal Processing and Data Analytics (STADIUS)](...)  in [KU Leuven](...). My advisor here is Prof. [Lieven De Lathauwer](...), whose research is on the development of tensor tools for mathematical engineering. My current [research activities](/publications) are also geared towards the design and implementation of *efficient* (multi-)linear numerical methods in applications broadly ranging from signal processing, machine learning, to solving systems of polynomial equations. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received my Ph.D. in 2018 at the Mechanical Engineering department at [UC Santa Barbara](https://me.ucsb.edu/). I was co-supervised by Prof. [Igor Mezić](https://me.ucsb.edu/people/igor-mezic) that works in [dynamical systems and nonlinear control](https://mgroup.me.ucsb.edu/) and Prof. [Shivkumar Chandrasekaran](https://engineering.ucsb.edu/people/shiv-chandrasekaran) of the [Scientific Computing group](http://scg.ece.ucsb.edu/index.html). The focus of my Ph.D. research was primarily on the computation of Koopman spectra of measure-preserving dynamical systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
