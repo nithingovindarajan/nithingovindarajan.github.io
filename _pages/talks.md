@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 1. A tensor-based approach to solving systems of
-multivariate polynomials. [CAM23](https://users.ba.cnr.it/iac/irmanm21/CAM23_last/Aim_and_scope.html), August 2023. ([PDF]())
+multivariate polynomials. [CAM23](https://users.ba.cnr.it/iac/irmanm21/CAM23_last/Aim_and_scope.html), August 2023. ([PDF](/assets/pdf/presentation_CAM_23.pdf))
 1. Efficient Computation of Macaulay Matrix Null Spaces Through Exploiting Shift-Invariant Structures. [SIAM AG23](https://www.siam.org/conferences/cm/conference/ag23), June 2023. ([PDF](/assets/pdf/Macaulay_presentation_SIAM_AG23.pdf))
 2. $(L_r,L_r,1)$-decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials. [SeLMA meeting](https://homes.esat.kuleuven.be/~sistawww/biomed/selma/), October 2021. ([PDF](/assets/pdf/SELMA_LL1_talk.pdf))
 3. Spline-based separable expansions for
