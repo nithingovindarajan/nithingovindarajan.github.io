@@ -2,7 +2,7 @@
 layout: page
 permalink: /code/
 title: Code
-description: A collection of code written by me for various 
+description: Code written by me for various research projects.
 nav: true
 nav_order: 3
 ---
