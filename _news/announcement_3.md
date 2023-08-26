@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received an FWO travel grant for a short research stay for the month of September at [Nicola Mastronardi](https://users.ba.cnr.it/iac/irmanm21/index.htm)'s research group in Istituto per le Applicazioni del Calcolo "M.Picone", Bari, Italy!
+I was awarded an FWO travel grant for a short research stay for the month of September at [Nicola Mastronardi](https://users.ba.cnr.it/iac/irmanm21/index.htm)'s research group in Istituto per le Applicazioni del Calcolo "M.Picone", Bari, Italy!
