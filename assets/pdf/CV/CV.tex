@@ -1,0 +1,161 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\usepackage{changepage}
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=1pt, marginparwidth=1.1in}
+\setlength\parindent{0in}
+
+% FONTS
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1} }
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\upshape\Large}
+\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+
+% DOCUMENT
+\begin{document}
+{\LARGE Nithin Govindarajan}\\[1cm]
+Phone: \texttt{+31 6 57156899 }\\
+email: {nithin.govindarajan@kuleuven.be}\\
+Location: Leuven, Belgium
+
+
+
+%%\hrule
+\section*{Areas of expertise}
+Numerical linear algebra, tensor methods, dynamical systems, systems theory, signal processing.
+%\hrule
+\section*{Education}
+
+\years{Oct. 2014 - Dec. 2018}\textsc{PhD} in Mechanical Engineerings, University of California in Santa Barbara
+\begin{adjustwidth}{2.5em}{0pt}
+	\emph{Dissertation title:} ``Periodic approximations and spectral analysis of the Koopman operator: theory and applications''. \\
+	\emph{Advisors:} I. Mezi\'{c}, S. Chandrasekaran. 
+\end{adjustwidth}
+\years{Sep. 2009 - Oct. 2012}\textsc{MSc} in Aerospace Engineering (with honors), Technische Universiteit Delft 
+\begin{adjustwidth}{2.5em}{0pt}
+	\emph{Master thesis:} ``An Optimal Control Approach for Estimating Aircraft Command Margins''. \\
+	\emph{Advisors:} Q.P.  Chu, C.C. de Visser. 
+\end{adjustwidth}
+\years{Jul. 2009}\textsc{BSc} in Aerospace Engineering (with honors), Technische Universiteit Delft 
+
+\section*{Work experience}
+\years{Aug. 2019 - present} Postdoctoral researcher, KU Leuven, Belgium \\
+\years{Feb. 2019 - July 2019} Lecturer Mathematics, University of Amsterdam (UvA), The Netherlands \\
+\years{Nov. 2012 - May 2013} Junior R\&D engineer, National Aerospace Laboratory, Amsterdam, The Netherlands \\
+\years{Sep. 2011 - May 2012} Intern, Mission Critical Technologies Inc. (on site at NASA Ames), Moffet Field, CA 
+
+%\hrule
+\section*{Fellowships, honors \& awards}
+\noindent
+
+\years{Apr. 2016} CCDC fellowship, Center for Control, Dynamics and Computation, Santa Barbara, CA \\
+\years{Apr. 2014} Department Merit Fellowship (UCSB Mech. Eng), Santa Barbara, CA \\
+\years{Mar. 2013} Fulbright scholarship (awarded), Fulbright office, Amsterdam, The Netherlands \\
+\years{May 2011} Huygens Scholarship Programme, Nuffic, The Hague, The Netherlands
+
+
+\section*{Publications}
+
+
+
+\subsection*{Journal Publications}
+
+\years{2022}Govindarajan, N., Vervliet, N., \& De Lathauwer, L. (2022). Regression and classification with spline-based separable expansions. Frontiers in big Data, 5, 688496.  \\
+\years{2022}Govindarajan, N., Epperly, E. N., \& Lathauwer, L. D. (2022). ($L_r,L_r,1$)-Decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials. SIAM Journal on Matrix Analysis and Applications, 43(2), 912-938. \\
+\years{2021}Epperly, E. N., Govindarajan, N., \& Chandrasekaran, S. (2021). Minimal rank completions for overlapping blocks. Linear Algebra and its Applications, 627, 185-198.  \\
+\years{2021}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. (2021). On the approximation of Koopman spectra of measure-preserving flows. SIAM Journal on Applied Dynamical Systems, 20(1), 232-261. \\
+\years{2019}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. (2019). On the approximation of Koopman spectra for measure preserving transformations. SIAM Journal on Applied Dynamical Systems, 18(3), 1454-1497. \\
+\years{2015}Govindarajan, N., De Visser, C. C., Van Kampen, E., Krishnakumar, K., Barlow, J., \& Stepanyan, V. (2015). Optimal control framework for estimating autopilot safety margins. Journal of Guidance, Control, and Dynamics, 38(7), 1197-1207. \\
+\years{2014} Govindarajan, N., de Visser, C. C., \& Krishnakumar, K. (2014). A sparse collocation method for solving time-dependent HJB equations using multivariate B-splines. Automatica, 50(9), 2234-2244.  
+
+\subsection*{Conference proceedings}
+\years{2023} Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2023, September). Overdetermined systems of polynomial equations: tensor-based solution and application. Proceedings of EUSIPCO 2023, Helsinki, Finland. \\
+\years{2018} Chandrasekaran, S., Govindarajan, N., \& Rajagopal, A. (2018, July). Fast Algorithms for Displacement and Low-Rank Structured Matrices. In Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation (pp. 17-22). \\
+\years{2016} Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., \& Tegling, E. (2016, December). An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum. In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE.  
+
+\subsection*{Preprints \& Tech reports}
+\years{2023} Govindarajan, N., Widdershoven, R., Chandrasekaran, S. (2023). A fast algorithm for computing Macaulay nullspaces of bivariate polynomial systems. ESAT Tech Report 23-16.  \\
+\years{2019} Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). Graph-induced rank structures and their representations. arXiv preprint arXiv:1911.05858 [math.NA].   
+
+\subsection*{Selected talks}
+\noindent
+\years{2023} ``A tensor-based approach to solving systems of multivariate polynomials'', CAM23, Selva di Fasano. \\
+\years{2023} ``Efficient Computation of Macaulay Matrix Null Spaces Through Exploiting Shift-Invariant Structures'', SIAM AG23, Eindhoven. \\
+\years{2021} 
+“$(L_r,L_r,1)$-decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials”, SeLMA meeting, Leuven.
+\years{2018} ``Spline-based separable expansions for approximation, regression and classiﬁcation'',  IPAM Workshop I: Tensor Methods and their Applications in the Physical and Data Sciences, UCLA (online) \\ 
+\years{2017} ``A toolbox for computing spectral properties of dynamical systems'', SIAM DS17, Snowbird.  
+\years{2016} ``An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum'', IEEE CDC 16, Las Vegas.
+
+
+%%\hrule
+\section*{Teaching}
+\subsection*{Lead instructor \& course organizor}
+\years{Semester 1 2019/2020} Numerical mathematics, Amsterdam University College \\
+
+\subsection*{Co-instructor}
+\years{March 2022} Fast algorithms for dense structured matrices, KU Leuven \\
+\years{Semester 2 2021/2022} Numerieke modellering \& benadering, KU Leuven \\
+\years{Semester 2 2019/2020} Numerieke modellering \& benadering,  KU Leuven \\
+\subsection*{Teaching assistant}
+\years{Semester 1 2021/2022} Numerieke wiskunde, KU Leuven \\
+\years{Semester 1 2020/2021} Numerieke wiskunde, KU Leuven \\
+\years{Semester 1 2019/2020} Numerieke wiskunde, KU Leuven \\
+\years{Spring 2018} Control theory, UCSB \\
+\years{Winter 2017} Electrical circuits Lab, UCSB \\
+\years{Fall 2017}   Intro to programming in Matlab, UCSB\\
+\years{Summer 2017} Dynamics, UCSB\\
+\years{Summer 2017} Physics Lab: intro to classical mechanics for non-engineers, UCSB\\
+\years{Spring 2017} Dynamics, UCSB\\
+\years{Spring 2015} Dynamics, UCSB\\
+\years{Winter 2015} Vibrations, UCSB\\
+\years{Fall 2014} Statics, UCSB
+
+
+\section*{Software skills}
+Matlab, Python, Mathematica, C++, Julia, Latex, Git.
+
+
+\section*{Languages}
+English, Dutch.
+
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today}
+\end{center}
+
+\end{document}
