@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 ### PyTensorlab (Python)
-A huge undertaking of translating the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. I am one of the main contributing developers to this project. (IN DEVELOPMENT)
+A huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. I am one of the main contributing developers to this project. (IN DEVELOPMENT)
 
 ### Fast null space computation of Macaulay matrices (Julia)
 Julia code written by me and [Raphaël Widdershoven](https://www.kuleuven.be/wieiswie/nl/person/00147347) to efficiently compute null spaces of Macaulay matrices of bivariate polynomial systems. The null space of the matrix is computed by converting the Macaulay matrix into a Cauchy-like matrix and then employing the Schur algorithm with approximate total pivoting to compute a rank-revealing factorization. ([Link to Repository](https://github.com/nithingovindarajan/Fast-Macaulay-Nullspace/tree/main))
