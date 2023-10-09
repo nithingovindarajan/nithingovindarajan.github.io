@@ -9,7 +9,7 @@ nav_order: 1
 
 #### Journal publications
 1. Govindarajan, N., Vervliet, N., & De Lathauwer, L. (2022). [Regression and classification with spline-based separable expansions](https://www.frontiersin.org/articles/10.3389/fdata.2022.688496/full). Frontiers in big Data, 5, 688496. ([PDF](https://www.frontiersin.org/articles/10.3389/fdata.2022.688496/pdf))
-2. Govindarajan, N., Epperly, E. N., & Lathauwer, L. D. (2022). [(L_r,L_r,1)-Decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials](https://epubs.siam.org/doi/abs/10.1137/21M1426444). SIAM Journal on Matrix Analysis and Applications, 43(2), 912-938. ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/21-101.pdf))
+2. Govindarajan, N., Epperly, E. N., & De Lathauwer, L. (2022). [(L_r,L_r,1)-Decompositions, sparse component analysis, and the blind separation of sums of exponentials](https://epubs.siam.org/doi/abs/10.1137/21M1426444). SIAM Journal on Matrix Analysis and Applications, 43(2), 912-938. ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/21-101.pdf))
 3. Epperly, E. N., Govindarajan, N., & Chandrasekaran, S. (2021). [Minimal rank completions for overlapping blocks](https://www.sciencedirect.com/science/article/abs/pii/S0024379521002469). Linear Algebra and its Applications, 627, 185-198. ([PDF](https://arxiv.org/pdf/2106.11267.pdf))
 4. Govindarajan, N., Mohr, R., Chandrasekaran, S., & Mezic, I. (2021). [On the approximation of Koopman spectra of measure-preserving flows](https://epubs.siam.org/doi/abs/10.1137/19M1282908). SIAM Journal on Applied Dynamical Systems, 20(1), 232-261. ([PDF](https://arxiv.org/pdf/1806.10296.pdf))
 5. Govindarajan, N., Mohr, R., Chandrasekaran, S., & Mezic, I. (2019). [On the approximation of Koopman spectra for measure preserving transformations](https://epubs.siam.org/doi/abs/10.1137/18M1175094). SIAM Journal on Applied Dynamical Systems, 18(3), 1454-1497. ([PDF](https://arxiv.org/pdf/1803.03920.pdf))
@@ -22,7 +22,7 @@ nav_order: 1
 3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE. ([PDF](/assets/pdf/CDCpaperPendulum_final.pdf))
 
 #### Preprints & technical reports
-1. Govindarajan, N.,  Widdershoven, R.,  Chandrasekaran, S. (2023). A fast algorithm for computing Macaulay null spaces of bivariate polynomial systems. ESAT Tech Report 23-16.  ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf))
+1. Govindarajan, N.,  Widdershoven, R.,  Chandrasekaran, S., De Lathauwer, L. (2023). A fast algorithm for computing Macaulay null spaces of bivariate polynomial systems. Accepted for publication in SIAM Journal on Matrix Analysis and Applications.  ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf))
 2. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). arXiv preprint arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
 
 
