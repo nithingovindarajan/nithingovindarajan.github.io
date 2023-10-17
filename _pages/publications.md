@@ -22,7 +22,7 @@ nav_order: 1
 3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE. ([PDF](/assets/pdf/CDCpaperPendulum_final.pdf))
 
 #### Preprints & technical reports
-1. Govindarajan, N.,  Widdershoven, R.,  Chandrasekaran, S., De Lathauwer, L. (2023). A fast algorithm for computing Macaulay null spaces of bivariate polynomial systems. (Accepted for publication in SIAM Journal on Matrix Analysis and Applications)  ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf))
+1. Govindarajan, N.,  Widdershoven, R.,  Chandrasekaran, S., De Lathauwer, L. (2023). A fast algorithm for computing Macaulay null spaces of bivariate polynomial systems. (*Accepted for publication in SIAM Journal on Matrix Analysis and Applications*)  ([PDF](https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf))
 2. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). arXiv preprint arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
 
 
