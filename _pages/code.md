@@ -2,13 +2,13 @@
 layout: page
 permalink: /code/
 title: Code
-description: Code written by me for various research projects.
+description: Code written by me for various research projects or as part of larger team effort to build software packages.
 nav: true
 nav_order: 3
 ---
 
-<!-- ### PyTensorlab (Python)
-A huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. I am one of the main contributing developers to this project. (IN DEVELOPMENT) -->
+### PyTensorlab (Python)
+I am currently involved in a huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. I am one of the main contributing developers. (IN DEVELOPMENT PHASE)
 
 #### Fast null space computation of Macaulay matrices (Julia)
 An efficient algorithm to compute null spaces of Macaulay matrices of bivariate polynomial systems. The null space of the matrix is obtained by converting the Macaulay matrix into a Cauchy-like matrix and then using the Schur algorithm with approximate total pivoting to compute a rank-revealing factorization. ([Link to Repository](https://github.com/nithingovindarajan/Fast-Macaulay-Nullspace/tree/main))
