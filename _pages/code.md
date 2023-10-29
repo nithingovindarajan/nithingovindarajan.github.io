@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 #### PyTensorlab (Python)
-I am currently involved in a huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. I am one of the main contributing developers. (IN DEVELOPMENT PHASE)
+I am currently involved in a huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. This is software package for computing tensor decompositions (e.g., CPD, multi-linear SVD, LMLRA). I am one of the main contributing developers. (IN DEVELOPMENT PHASE)
 
 #### Fast null space computation of Macaulay matrices (Julia)
 An efficient algorithm to compute null spaces of Macaulay matrices of bivariate polynomial systems. The null space of the matrix is obtained by converting the Macaulay matrix into a Cauchy-like matrix and then using the Schur algorithm with approximate total pivoting to compute a rank-revealing factorization. ([Link to Repository](https://github.com/nithingovindarajan/Fast-Macaulay-Nullspace/tree/main))
