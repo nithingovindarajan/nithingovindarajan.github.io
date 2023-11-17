@@ -16,4 +16,4 @@ nav_order: 3
 
 #### Packages
 1. **PyTensorlab (Python).** I am currently involved in a huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. This is software package for computing tensor decompositions (e.g., CPD, multi-linear SVD, LMLRA). I am one of the main contributing developers. (IN DEVELOPMENT PHASE)
-2. **SSSMatrices (Julia).** Computational routines for Sequentially Semi-Separable (SSS) matrices. The package allows one to convert dense matrix into SSS representation, add SSS representations, and solve systems involving SSS representations.  ([Repository](https://github.com/nithingovindarajan/SSSmatrices))
+2. **SSSMatrices (Julia).** Computational routines for Sequentially Semi-Separable (SSS) matrices. The package allows one to convert dense matrix into SSS representations, add SSS matrices, and solve linear systems involving SSS matrices.  ([Repository](https://github.com/nithingovindarajan/SSSmatrices))
