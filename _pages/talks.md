@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 1. Macaulay matrices, low displacement rank, and the efficient computation of null spaces. [Back to the Roots Seminar Series](https://homes.esat.kuleuven.be/~sistawww/bdm/backtotheroots/index.php?p=2261/nitihin-govindarajan), March 2024. ([PDF](/assets/pdf/back_to_the_roots.pdf) | [Video](https://kuleuven.mediaspace.kaltura.com/media/05+03+2024++ERC++Nithin+Govindarajan/1_k4f5lu6a))
+2.  ([PDF](/assets/pdf/IPAM_splines.pdf) | [Video](https://www.youtube.com/watch?v=9F9D2_-9rtU))
 2. A tensor-based approach to solving systems of
 multivariate polynomials. [CAM23](https://users.ba.cnr.it/iac/irmanm21/CAM23_last/Aim_and_scope.html), August 2023. ([PDF](/assets/pdf/presentation_CAM_23.pdf))
 3. Efficient Computation of Macaulay Matrix Null Spaces Through Exploiting Shift-Invariant Structures. [SIAM AG23](https://www.siam.org/conferences/cm/conference/ag23), June 2023. ([PDF](/assets/pdf/Macaulay_presentation_SIAM_AG23.pdf))
