@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: Talks & Posters
-description: A selected list of talks given in conferences, workshops and seminars.
+description: A selected list of talks and posters given in conferences, workshops and seminars.
 nav: true
 nav_order: 2
 ---
