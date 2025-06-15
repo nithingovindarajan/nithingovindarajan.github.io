@@ -20,7 +20,7 @@ nav_order: 1
 9. Govindarajan, N., de Visser, C. C., & Krishnakumar, K. (2014). [A sparse collocation method for solving time-dependent HJB equations using multivariate B-splines](https://www.sciencedirect.com/science/article/abs/pii/S0005109814002878). *Automatica*, 50(9), 2234-2244. ([PDF]())
 
 #### Conference proceedings 
-1. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2023, September). [Overdetermined systems of polynomial equations: tensor-based solution and application](https://kuleuven.limo.libis.be/discovery/search?query=any,contains,LIRIAS4090734&tab=LIRIAS&search_scope=lirias_profile&vid=32KUL_KUL:Lirias&offset=0). *Proceedings of EUSIPCO 2023*, Helsinki, Finland. ([PDF]())
+1. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2023, September). [Overdetermined systems of polynomial equations: tensor-based solution and application](https://ieeexplore.ieee.org/document/10289991). *Proceedings of EUSIPCO 2023*, Helsinki, Finland. ([PDF](https://ftp.esat.kuleuven.be/pub/stadius//rwidders/widdershoven2023overdetermined.pdf))
 2. Chandrasekaran, S., Govindarajan, N., & Rajagopal, A. (2018, July). [Fast Algorithms for Displacement and Low-Rank Structured Matrices](https://dl.acm.org/doi/10.1145/3208976.3209025). In *Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation* (pp. 17-22). ([PDF](https://arxiv.org/pdf/1807.03437.pdf))
 3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 *IEEE 55th Conference on Decision and Control (CDC)* (pp. 6477-6484). IEEE. ([PDF](/assets/pdf/CDCpaperPendulum_final.pdf))
 
@@ -30,3 +30,4 @@ nav_order: 1
 
 #### Dissertation
 1. Govindarajan, N. (2018). [Periodic approximations and spectral analysis of the Koopman operator: theory and applications](https://www.proquest.com/openview/8460f34e200557d7601c851619e1e108/1?pq-origsite=gscholar&cbl=18750&diss=y). PhD thesis. University of California Santa Barbara ([PDF](https://escholarship.org/content/qt7bf6218t/qt7bf6218t.pdf))
+
