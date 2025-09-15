@@ -25,7 +25,7 @@ nav_order: 1
 3. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 *IEEE 55th Conference on Decision and Control (CDC)* (pp. 6477-6484). IEEE. ([PDF](/assets/pdf/CDCpaperPendulum_final.pdf))
 
 #### Preprints & technical reports
-1. Madala, V. C., Govindarajan, N., Chandrasekaran, S. (2025). [MNO : A Multi-modal Neural Operator for Parametric Nonlinear BVPs](https://arxiv.org/abs/2507.11870). *arXiv preprint* arXiv:2507.11870 [cs.CE](https://arxiv.org/pdf/2507.11870.pdf)
+1. Madala, V. C., Govindarajan, N., Chandrasekaran, S. (2025). [MNO : A Multi-modal Neural Operator for Parametric Nonlinear BVPs](https://arxiv.org/abs/2507.11870). *arXiv preprint* arXiv:2507.11870 [cs.CE]. ([PDF](https://arxiv.org/pdf/2507.11870.pdf))
 2. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2025). [Fast Macaulay null space through the intersection of shifted null spaces](). Technical Report 25-56, ESAT-STADIUS, KU Leuven. ([PDF]())
 3. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). *arXiv preprint* arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
 

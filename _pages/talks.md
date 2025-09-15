@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 #### Talks
+1. Fast Macaulay Null Space. [Workshop on Low Rank Models and Applications (LMRA 25)](https://sites.google.com/view/lrma25/), September 2025.
 1. Rank structured matrices induced by dynamical systems on graphs, [NUMA seminar series](https://numa.cs.kuleuven.be/events#), November 2024. ([PDF](/assets/pdf/Rank_structured_matrices_induced_by_dynamical_systems_on_graphs.pdf))
 2. Macaulay matrices, low displacement rank, and the efficient computation of null spaces. [Back to the Roots Seminar Series](https://homes.esat.kuleuven.be/~sistawww/bdm/backtotheroots/index.php?p=2261/nitihin-govindarajan), March 2024. ([PDF](/assets/pdf/back_to_the_roots.pdf)) ([Video](https://kuleuven.mediaspace.kaltura.com/media/05+03+2024++ERC++Nithin+Govindarajan/1_k4f5lu6a))
 3. A tensor-based approach to solving systems of
