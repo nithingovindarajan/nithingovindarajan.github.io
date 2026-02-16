@@ -15,5 +15,5 @@ nav_order: 3
 5. **Hybrid Pendulum (Matlab).**  Code associated with the paper ["An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum"](https://ieeexplore.ieee.org/abstract/document/7799266) to plot Koopman eigenfunctions of the Hybrid pendulum. ([Repository](https://github.com/nithingovindarajan/Hybrid-Pendulum-Experiments))
 
 #### Packages
-1. **PyTensorlab (Python).** I am currently involved in a huge undertaking to translate the [Tensorlab](https://www.tensorlab.net/) software package in Matlab to Python. This is software package for computing tensor decompositions (e.g., CPD, multi-linear SVD, LMLRA). I am one of the main contributing developers. (IN DEVELOPMENT PHASE)
+1. **PyTensorlab (Python).** I was one of the main developers of ([Pytensorlab](https://pytensorlab.net/)), a python package for tensor computations.
 2. **SSSMatrices (Julia).** Computational routines for Sequentially Semi-Separable (SSS) matrices. The package allows one to convert dense matrix into SSS representations, add SSS matrices, and solve linear systems involving SSS matrices.  ([Repository](https://github.com/nithingovindarajan/SSSmatrices))
