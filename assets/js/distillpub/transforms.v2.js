@@ -12703,7 +12703,7 @@ window.addEventListener('WebComponentsReady', function() {
     if (templateTag) {
       templateTag.parentNode.removeChild(templateTag);
     } else {
-      console.debug('FYI: Did not find template tag when trying to remove it. You may not have added it. Be aware that our polyfills will add it.');
+      console.debug('FYI: Did not find template tag when trying to remove it.');
     }
 
     // add loader
@@ -12715,16 +12715,6 @@ window.addEventListener('WebComponentsReady', function() {
     const addTag = dom.createElement('script');
     addTag.innerHTML = addBackIn;
     dom.head.insertBefore(addTag, dom.head.firstChild);
-
-
-    // create polyfill script tag
-    // const polyfillScriptTag = dom.createElement('script');
-    // polyfillScriptTag.innerHTML = template;
-    // polyfillScriptTag.id = 'polyfills';
-
-    // insert at appropriate position--before any other script tag
-    // const firstScriptTag = dom.head.querySelector('script');
-    // dom.head.insertBefore(polyfillScriptTag, firstScriptTag);
   }
 
   // Copyright 2018 The Distill Template Authors
@@ -13100,7 +13090,6 @@ distill-header .nav a {
     ['Mathematics', Mathematics],
     ['Meta', Meta],
     ['Typeset', Typeset],
-    ['Polyfills', render],
     ['CitationList', CitationList],
     ['Reorder', render$1] // keep last
   ]);
