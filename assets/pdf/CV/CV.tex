@@ -19,36 +19,78 @@
 \usepackage{geometry} 
 \usepackage{hyperref}
 \usepackage{changepage}
-\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=1pt, marginparwidth=1.1in}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{array}
+\usepackage{fontawesome5}
+\usepackage{academicons}
+\geometry{a4paper, textwidth=6.4in, textheight=9.45in, marginparsep=1pt, marginparwidth=0.75in}
 \setlength\parindent{0in}
+\setlength\parskip{0pt}
+\linespread{0.97}
+\setlength\emergencystretch{1em}
 
 % FONTS
+\defaultfontfeatures{Ligatures=TeX}
+\IfFontExistsTF{TeX Gyre Pagella}{\setmainfont{TeX Gyre Pagella}}{}
+\IfFontExistsTF{TeX Gyre Heros}{\setsansfont{TeX Gyre Heros}}{}
 % ---- CUSTOM AMPERSAND
 \newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\selectfont\itshape\&}}
 % ---- MARGIN YEARS
 \usepackage{marginnote}
-\newcommand{\years}[1]{\marginnote{\scriptsize #1} }
+\newcommand{\years}[1]{\marginnote{\makebox[\marginparwidth][r]{\scriptsize\color{cvmuted}#1}} }
 \renewcommand*{\raggedleftmarginnote}{}
 \setlength{\marginparsep}{7pt}
 \reversemarginpar
 
+% COLORS AND LINKS
+\definecolor{cvaccent}{HTML}{28536B}
+\definecolor{cvaccentdark}{HTML}{1D3B4D}
+\definecolor{cvmuted}{HTML}{5F6C72}
+\definecolor{cvpanel}{HTML}{F2F5F6}
+\definecolor{cvrule}{HTML}{A9BAC2}
+\hypersetup{colorlinks=true, urlcolor=cvaccent, linkcolor=cvaccent}
+
 % HEADINGS
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries\upshape\Large}
-\subsectionfont{\rmfamily\bfseries\upshape\normalsize} 
-\subsubsectionfont{\rmfamily\mdseries\upshape\normalsize} 
+\titleformat{\section}{\sffamily\bfseries\large\color{cvaccentdark}}{}{0pt}{}[\vspace{-0.45ex}{\color{cvrule}\titlerule[0.5pt]}]
+\titleformat{\subsection}{\sffamily\bfseries\normalsize\color{cvaccentdark}}{}{0pt}{}
+\titleformat{\subsubsection}{\sffamily\mdseries\normalsize\color{black}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.25ex plus .2ex minus .1ex}{0.6ex plus .1ex}
+\titlespacing*{\subsection}{0pt}{0.8ex plus .2ex minus .1ex}{0.3ex plus .1ex}
+\titlespacing*{\subsubsection}{0pt}{0.6ex plus .2ex minus .1ex}{0.2ex plus .1ex}
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
 
 % DOCUMENT
 \begin{document}
-{\LARGE Nithin Govindarajan}\\[1cm]
-Phone: \texttt{+31 6 57156899 }\\
-email: {nithin.govindarajan@kuleuven.be}\\
-Location: Leuven, Belgium \\
-website: \url{https://nithingovindarajan.github.io/}
+\noindent{\setlength{\fboxsep}{8pt}\colorbox{cvpanel}{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}
+\setlength{\tabcolsep}{0pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} p{4.05in} >{\raggedleft\arraybackslash}p{2.05in} @{}}
+\begin{minipage}[t]{4.05in}
+\vspace{0pt}
+{\sffamily\bfseries\fontsize{23}{25}\selectfont\color{cvaccentdark} Nithin Govindarajan}\quad
+{\normalsize
+\href{https://www.linkedin.com/in/nithin-govindarajan-43005942}{\faLinkedin} \quad
+\href{https://github.com/nithingovindarajan}{\faGithub} \quad
+\href{https://gitlab.com/nithin.govindarajn}{\faGitlab} \quad
+\href{https://scholar.google.com/citations?user=AXlDxlQAAAAJ\&hl=en}{\aiGoogleScholar}}\\[-0.05cm]
+{\sffamily\small\color{cvmuted} Scientific Computing \textcolor{cvrule}{|} Numerical Linear Algebra \textcolor{cvrule}{|} Solver Development}
+\end{minipage} &
+\begin{minipage}[t]{2.05in}
+\vspace{0pt}
+\raggedleft\footnotesize\color{cvmuted}
+Leuven, Belgium\\
+\href{mailto:nithin.govindarajan@gmail.com}{nithin.govindarajan@gmail.com}\\
+\href{mailto:vgn.consultancy@gmail.com}{vgn.consultancy@gmail.com}\\
++31 6 57156899\\
+\href{https://nithingovindarajan.github.io/}{nithingovindarajan.github.io}
+\end{minipage}
+\end{tabular*}
+\end{minipage}}}
+\vspace{0.2cm}
 
 
 %%\hrule
@@ -59,111 +101,82 @@ algebraic geometry, tensor methods.
 %\hrule
 \section*{Education}
 
-\years{Oct. 2014 - Dec. 2018}\textsc{PhD} in Mechanical Engineering, University of California in Santa Barbara
+\years{2014--2018}\textsc{PhD} in Mechanical Engineering, University of California in Santa Barbara
 \begin{adjustwidth}{2.5em}{0pt}
-	\emph{Dissertation title:} ``Periodic approximations and spectral analysis of the Koopman operator: theory and applications''. \\
-	\emph{Advisors:} I. Mezi\'{c}, S. Chandrasekaran. 
+	\emph{Dissertation:} Periodic approximations and spectral analysis of the Koopman operator.
 \end{adjustwidth}
-\years{Sep. 2009 - Oct. 2012}\textsc{MSc} in Aerospace Engineering (with distinction), Technische Universiteit Delft 
+\years{2009--2012}\textsc{MSc} in Aerospace Engineering (with distinction), Technische Universiteit Delft 
 \begin{adjustwidth}{2.5em}{0pt}
-	\emph{Master thesis:} ``An Optimal Control Approach for Estimating Aircraft Command Margins''. \\
-	\emph{Advisors:} Q.P.  Chu, C.C. de Visser. 
+	\emph{Thesis:} Optimal control approach for estimating aircraft command margins.
 \end{adjustwidth}
-\years{Sep. 2006 - Jul. 2009}\textsc{BSc} in Aerospace Engineering (with distinction), Technische Universiteit Delft 
+\years{2006--2009}\textsc{BSc} in Aerospace Engineering (with distinction), Technische Universiteit Delft 
 
 \section*{Work experience}
-\years{Nov. 2023 - present} Founder, VGN Computational consultancy services: numerical algorithms, scientific computing, and research software development.\\
-\years{Nov. 2018 - present} Co-founder and technical lead, \url{www.matisse.ai}: development of production software for AI-assisted dental applications.\\
-\years{Aug. 2019 - Feb. 2026} Postdoctoral researcher, KU Leuven, Belgium \\
-\years{Feb. 2019 - July 2019} Lecturer Mathematics, University of Amsterdam (UvA), The Netherlands \\
-\years{Nov. 2012 - May 2013} Junior R\&D engineer, National Aerospace Laboratory (NLR), Amsterdam, The Netherlands \\
-\years{Sep. 2011 - May 2012} Intern, Mission Critical Technologies Inc. (on site at NASA Ames), Moffet Field, CA 
+\years{2023--present} Founder, VGN Computational Consultancy Services CommV.\\
+\years{2018--present} Co-founder and CTO, Labmatisse B.V., The Netherlands.\\
+\years{2026--present} Researcher, KU Leuven, Belgium \\
+\years{2019--2026} Postdoctoral researcher, KU Leuven, Belgium \\
+\years{2019} Lecturer Mathematics, University of Amsterdam (UvA), The Netherlands \\
+\years{2012--2013} Junior R\&D engineer, National Aerospace Laboratory (NLR), Amsterdam, The Netherlands \\
+\years{2011--2012} M.Sc. thesis Intern at NASA Ames Research Center, Mission Critical Technologies Inc., Moffet Field, CA 
 
-\section*{Selected software and numerical development}
-\years{2022 - present} One of the main developers of \textbf{PyTensorlab}, a Python package for tensor computations: implemented numerical routines, research prototypes, and user-facing scientific software. \href{https://pytensorlab.net/}{pytensorlab.net}\\
-\years{2024 - present} Developed \textbf{SSSMatrices} in Julia for sequentially semi-separable matrix representations, including conversion from dense matrices, matrix arithmetic, and linear-system solvers. \href{https://github.com/nithingovindarajan/SSSmatrices}{GitHub repository}\\
-\years{2022 - present} Developed and validated fast algorithms for Macaulay nullspaces and structured linear algebra, with reproducible code accompanying SIAM publications and technical reports.\\
-\years{2014 - present} Research software for numerical PDEs, dynamical systems, tensor methods, and low-rank structured matrix algorithms in Matlab, Python, and Julia.
+\section*{Software development}
+\years{2026--present} Developing global solvers for nonlinear boundary value problems using computational algebraic geometry and numerical linear algebra.\\
+\years{2018--present} Developing the core algorithm engine for \href{https://www.matisse.ai}{Matisse.ai}, an AI-assisted dental application, using inverse modelling and numerical optimization. \\
+\years{2022--2025} One of the main developers of \href{https://pytensorlab.net/}{PyTensorlab}, a Python package for tensor computations.\\
+\years{2024} Developed \href{https://github.com/nithingovindarajan/SSSmatrices}{SSSMatrices}, a Julia package for sequentially semi-separable matrix computations. \\
+\years{2014--2026} Developed research code for numerical PDEs, dynamical systems, tensor decompositions, Macaulay nullspace computations, and low-rank structured linear algebra in Matlab, Python, and Julia; selected code and details are available on \href{https://nithingovindarajan.github.io/Software/}{my website}.
 
 %\hrule
 \section*{Fellowships, honors \& awards}
 \noindent
 
-\years{Apr. 2016} CCDC fellowship, Center for Control, Dynamics and Computation, Santa Barbara, CA \\
-\years{Apr. 2014} Department Merit Fellowship (UCSB Mech. Eng), Santa Barbara, CA \\
+\years{2016} CCDC fellowship, Center for Control, Dynamics and Computation, Santa Barbara, CA \\
+\years{2014} Department Merit Fellowship (UCSB Mech. Eng), Santa Barbara, CA \\
 % \years{Mar. 2013} Fulbright scholarship (awarded), Fulbright office, Amsterdam, The Netherlands \\
-\years{May 2011} Huygens Scholarship Programme, Nuffic, The Hague, The Netherlands
-
-
-
+\years{2011} Huygens Scholarship Programme, Nuffic, The Hague, The Netherlands
 
 
 \section*{Publications}
+\subsection*{Journals}
+\years{2025}Govindarajan, N., Chandrasekaran, S., De Lathauwer, L. \href{https://arxiv.org/pdf/2402.13381.pdf}{Tree quasi-separable matrices: A simultaneous generalization of sequentially and hierarchically semiseparable representations}. \emph{SIAM J. Matrix Anal. Appl.}, 46(2), 1562-1586. \\
+\years{2024}Govindarajan, N., Widdershoven, R., Chandrasekaran, S., \& De Lathauwer, L. \href{https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/23-16.pdf}{A fast algorithm for computing Macaulay nullspaces of bivariate polynomial systems}. \emph{SIAM J. Matrix Anal. Appl.}, 45(1), 368-396. \\
+\years{2022}Govindarajan, N., Vervliet, N., \& De Lathauwer, L. \href{https://www.frontiersin.org/articles/10.3389/fdata.2022.688496/pdf}{Regression and classification with spline-based separable expansions}. \emph{Frontiers Big Data}, 5, 688496. \\
+\years{2022}Govindarajan, N., Epperly, E. N., \& De Lathauwer, L. \href{https://ftp.esat.kuleuven.be/pub/stadius/ida/reports/21-101.pdf}{($L_r,L_r,1$)-decompositions, sparse component analysis, and blind separation of sums of exponentials}. \emph{SIAM J. Matrix Anal. Appl.}, 43(2), 912-938. \\
+\years{2021}Epperly, E. N., Govindarajan, N., \& Chandrasekaran, S. \href{https://arxiv.org/pdf/2106.11267.pdf}{Minimal rank completions for overlapping blocks}. \emph{Linear Algebra Appl.}, 627, 185-198. \\
+\years{2021}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. \href{https://arxiv.org/pdf/1806.10296.pdf}{On the approximation of Koopman spectra of measure-preserving flows}. \emph{SIAM J. Appl. Dyn. Syst.}, 20(1), 232-261. \\
+\years{2019}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. \href{https://arxiv.org/pdf/1803.03920.pdf}{On the approximation of Koopman spectra for measure-preserving transformations}. \emph{SIAM J. Appl. Dyn. Syst.}, 18(3), 1454-1497. \\
+\years{2015}Govindarajan, N., De Visser, C. C., Van Kampen, E., Krishnakumar, K., Barlow, J., \& Stepanyan, V. \href{https://arc.aiaa.org/doi/pdf/10.2514/1.G000271}{Optimal control framework for estimating autopilot safety margins}. \emph{J. Guidance Control Dyn.}, 38(7), 1197-1207. \\
+\years{2014}Govindarajan, N., de Visser, C. C., \& Krishnakumar, K. \href{https://nithingovindarajan.github.io/assets/pdf/automaticapaper.pdf}{A sparse collocation method for solving time-dependent HJB equations using multivariate B-splines}. \emph{Automatica}, 50(9), 2234-2244.
 
+\subsection*{Conference Proceedings}
+\years{2026} Madala, V. C., Govindarajan, N., \& Chandrasekaran, S. \href{https://ai-2-ase.github.io/papers/CameraReadys%203-41/8/CameraReady/MNO_camera_ready.pdf}{MNO: A Multi-modal Neural Operator for Parametric Nonlinear BVPs}. \emph{AI2ASE}, Singapore. \\
+\years{2023} Widdershoven, R., Govindarajan, N., De Lathauwer, L. \href{https://ftp.esat.kuleuven.be/pub/stadius//rwidders/widdershoven2023overdetermined.pdf}{Overdetermined systems of polynomial equations: tensor-based solution and application}. \emph{EUSIPCO}, Helsinki. \\
+\years{2018} Chandrasekaran, S., Govindarajan, N., \& Rajagopal, A. \href{https://arxiv.org/pdf/1807.03437.pdf}{Fast algorithms for displacement and low-rank structured matrices}. \emph{ISSAC}, 17-22. \\
+\years{2016} Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., \& Tegling, E. \href{https://nithingovindarajan.github.io/assets/pdf/CDCpaperPendulum_final.pdf}{An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum}. \emph{IEEE CDC}, 6477-6484.
 
+\subsection*{Preprints \& Technical Reports}
+\years{2026} Govindarajan, N., Vervliet, N., Widdershoven, R., De Lathauwer, L. \href{https://nithingovindarajan.github.io/assets/pdf/Krylov2026.pdf}{Efficient Krylov methods for overdetermined polynomial systems}. Technical Report 26-108, ESAT-STADIUS, KU Leuven.\\
+\years{2025} Widdershoven, R., Govindarajan, N., De Lathauwer, L. \href{https://ftp.esat.kuleuven.be/pub/stadius//rwidders/widdershoven2025mini_preprint.pdf}{Fast Macaulay null space through the intersection of shifted null spaces}. Technical Report 25-56, ESAT-STADIUS, KU Leuven.\\
+\years{2019} Chandrasekaran, S., Epperly, E. N., Govindarajan, N. \href{https://arxiv.org/pdf/1911.05858.pdf}{Graph-induced rank structures and their representations}. arXiv:1911.05858.
 
-\subsection*{Journal Publications}
-\years{2025}Govindarajan, N.,  Chandrasekaran, S., Dewilde Lathauwer, L. (2025). Tree Quasi-separable Matrices: A Simultaneous Generalization of Sequentially and Hierarchically Semiseparable Representations. SIAM Journal on Matrix Analysis and Applications, 46(2), 1562-1586. \\
-\years{2024}Govindarajan, N., Widdershoven, R., Chandrasekaran, S., \& De Lathauwer, L. (2023). A fast algorithm for computing Macaulay nullspaces of bivariate polynomial systems. SIAM Journal on Matrix Analysis and Applications, 45(1), 368-396. \\
-\years{2022}Govindarajan, N., Vervliet, N., \& De Lathauwer, L. (2022). Regression and classification with spline-based separable expansions. Frontiers in big Data, 5, 688496.  \\
-\years{2022}Govindarajan, N., Epperly, E. N., \& Lathauwer, L. D. (2022). ($L_r,L_r,1$)-Decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials. SIAM Journal on Matrix Analysis and Applications, 43(2), 912-938. \\
-\years{2021}Epperly, E. N., Govindarajan, N., \& Chandrasekaran, S. (2021). Minimal rank completions for overlapping blocks. Linear Algebra and its Applications, 627, 185-198.  \\
-\years{2021}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. (2021). On the approximation of Koopman spectra of measure-preserving flows. SIAM Journal on Applied Dynamical Systems, 20(1), 232-261. \\
-\years{2019}Govindarajan, N., Mohr, R., Chandrasekaran, S., \& Mezic, I. (2019). On the approximation of Koopman spectra for measure preserving transformations. SIAM Journal on Applied Dynamical Systems, 18(3), 1454-1497. \\
-\years{2015}Govindarajan, N., De Visser, C. C., Van Kampen, E., Krishnakumar, K., Barlow, J., \& Stepanyan, V. (2015). Optimal control framework for estimating autopilot safety margins. Journal of Guidance, Control, and Dynamics, 38(7), 1197-1207. \\
-\years{2014} Govindarajan, N., de Visser, C. C., \& Krishnakumar, K. (2014). A sparse collocation method for solving time-dependent HJB equations using multivariate B-splines. Automatica, 50(9), 2234-2244.  
-
-\subsection*{Conference proceedings}
-\years{2023} Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2023, September). Overdetermined systems of polynomial equations: tensor-based solution and application. Proceedings of EUSIPCO 2023, Helsinki, Finland. \\
-\years{2018} Chandrasekaran, S., Govindarajan, N., \& Rajagopal, A. (2018, July). Fast Algorithms for Displacement and Low-Rank Structured Matrices. In Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation (pp. 17-22). \\
-\years{2016} Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., \& Tegling, E. (2016, December). An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum. In 2016 IEEE 55th Conference on Decision and Control (CDC) (pp. 6477-6484). IEEE.  
-
-\subsection*{Preprints \& Tech reports}
-\years{2026} Govindarajan, N., Vervliet, N., Widdershoven, R., De Lathauwer, L. (2026). Efficient Krylov methods for overdetermined polynomial systems. Technical Report 26-108, ESAT-STADIUS, KU Leuven, Leuven, Belgium.\\
-\years{2025} Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2025). Fast Macaulay null space through the intersection of shifted null spaces. Technical Report 25-56, ESAT-STADIUS, KU Leuven.  
-\years{2019} Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). Graph-induced rank structures and their representations. arXiv preprint arXiv:1911.05858.   
-
-\subsection*{Selected talks}
+\section*{Conferences}
 \noindent
-\years{2024} ``Macaulay matrices, low displacement rank, and the efficient computation of null spaces'', Back to the roots seminar, Leuven. \\
-\years{2023} ``A tensor-based approach to solving systems of multivariate polynomials'', CAM23, Selva di Fasano. \\
-\years{2023} ``Efficient Computation of Macaulay Matrix Null Spaces Through Exploiting Shift-Invariant Structures'', SIAM AG23, Eindhoven. \\
-\years{2021} 
-“$(L_r,L_r,1)$-decompositions, Sparse Component Analysis, and the Blind Separation of Sums of Exponentials”, SeLMA meeting, Leuven.
-\years{2018} ``Spline-based separable expansions for approximation, regression and classiﬁcation'',  IPAM Workshop I: Tensor Methods and their Applications in the Physical and Data Sciences, UCLA (online) \\ 
-\years{2017} ``A toolbox for computing spectral properties of dynamical systems'', SIAM DS17, Snowbird.  
-\years{2016} ``An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum'', IEEE CDC 16, Las Vegas.
+\years{2025}\href{https://sites.google.com/view/lrma25/}{Fast Macaulay Null Space}, LMRA 25; \href{https://nithingovindarajan.github.io/assets/pdf/Householderposter.pdf}{Towards efficient algorithms for approximately solving overdetermined polynomial systems}, Householder Symposium XXII (poster).\\
+\years{2024} \href{https://nithingovindarajan.github.io/assets/pdf/Rank_structured_matrices_induced_by_dynamical_systems_on_graphs.pdf}{Rank structured matrices induced by dynamical systems on graphs}, NUMA seminar; \href{https://nithingovindarajan.github.io/assets/pdf/back_to_the_roots.pdf}{Macaulay matrices, low displacement rank, and efficient null-space computation}, Back to the Roots.\\
+\years{2023} \href{https://nithingovindarajan.github.io/assets/pdf/presentation_CAM_23.pdf}{A tensor-based approach to solving systems of multivariate polynomials}, CAM23; \href{https://nithingovindarajan.github.io/assets/pdf/Macaulay_presentation_SIAM_AG23.pdf}{Efficient Computation of Macaulay Matrix Null Spaces Through Exploiting Shift-Invariant Structures}, SIAM AG23.\\
+\years{2022} \href{https://nithingovindarajan.github.io/assets/pdf/CWIposter.pdf}{A fast algorithm for computing Macaulay null spaces of bivariate polynomial systems}, Workshop on Solving Polynomial Equations and Applications, CWI Amsterdam (poster).\\
+\years{2021} \href{https://nithingovindarajan.github.io/assets/pdf/SELMA_LL1_talk.pdf}{($L_r,L_r,1$)-decompositions, sparse component analysis, and blind separation of sums of exponentials}, SeLMA; \href{https://nithingovindarajan.github.io/assets/pdf/IPAM_splines.pdf}{Spline-based separable expansions for approximation, regression and classification}, IPAM Workshop I.\\
+\years{2017} \href{https://nithingovindarajan.github.io/assets/pdf/DS17periodicapprx.compressed.pdf}{A toolbox for computing spectral properties of dynamical systems}, SIAM DS17.\\
+\years{2016} \href{https://ieeexplore.ieee.org/abstract/document/7799266}{An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum}, IEEE CDC.
 
 
 %%\hrule
 \section*{Teaching}
-\subsection*{Lead instructor \& course organizor}
-\years{Semester 1 2019/2020} Numerical mathematics, Amsterdam University College \\
-
-\subsection*{Co-instructor}
-\years{March 2022} Fast algorithms for dense structured matrices, KU Leuven \\
-\years{Semester 2 2021/2022} Numerieke modellering \& benadering, KU Leuven \\
-\years{Semester 2 2019/2020} Numerieke modellering \& benadering,  KU Leuven \\
-\subsection*{Teaching assistant}
-\years{Semester 1 2021/2022} Numerieke wiskunde, KU Leuven \\
-\years{Semester 1 2020/2021} Numerieke wiskunde, KU Leuven \\
-\years{Semester 1 2019/2020} Numerieke wiskunde, KU Leuven \\
-\years{Spring 2018} Control theory, UCSB \\
-\years{Winter 2017} Electrical circuits Lab, UCSB \\
-\years{Fall 2017}   Intro to programming in Matlab, UCSB\\
-\years{Summer 2017} Dynamics, UCSB\\
-\years{Summer 2017} Physics Lab: intro to classical mechanics for non-engineers, UCSB\\
-\years{Spring 2017} Dynamics, UCSB\\
-\years{Spring 2015} Dynamics, UCSB\\
-\years{Winter 2015} Vibrations, UCSB\\
-\years{Fall 2014} Statics, UCSB
-
-\section*{Extra-curricular}
-\noindent
-
-
-
-
+\years{2019--20} Lead instructor: Numerical mathematics, Amsterdam University College.\\
+\years{2019--22} Co-instructor: \href{https://nithingovindarajan.github.io/SOCN-Fast-algorithms-for-dense-structured-matrices/}{Fast algorithms for dense structured matrices}; Numerieke modellering \& benadering, KU Leuven.\\
+\years{2019--22} Teaching assistant: Numerieke wiskunde, KU Leuven.\\
+\years{2014--18} Teaching assistant: control theory, electrical circuits lab, Matlab programming, dynamics, physics lab, vibrations, and statics, UCSB.
 
 \section*{Software skills}
 Python, Matlab, Julia, Git, LaTeX, Mathematica; working knowledge of C++.
