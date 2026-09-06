@@ -26,8 +26,9 @@ nav_order: 1
 4. Govindarajan, N., Arbabi, H., Van Blargian, L., Matchen, T., & Tegling, E. (2016, December). [An operator-theoretic viewpoint to non-smooth dynamical systems: Koopman analysis of a hybrid pendulum](https://ieeexplore.ieee.org/abstract/document/7799266). In 2016 *IEEE 55th Conference on Decision and Control (CDC)* (pp. 6477-6484). IEEE. ([PDF](/assets/pdf/CDCpaperPendulum_final.pdf))([code](https://github.com/nithingovindarajan/Hybrid-Pendulum-Experiments))
 
 #### Preprints & technical reports
-1. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2025). [Fast Macaulay null space through the intersection of shifted null spaces](). Technical Report 25-56, ESAT-STADIUS, KU Leuven. ([PDF](https://ftp.esat.kuleuven.be/pub/stadius//rwidders/widdershoven2025mini_preprint.pdf))([code](https://www.tensorlabplus.net/papers/widdershoven2025mini.html))
-2. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). *arXiv preprint* arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
+1. Govindarajan, N., Vervliet, N., Widdershoven, R., De Lathauwer, L. (2026). Efficient Krylov methods for overdetermined polynomial systems. Technical Report 26-108, ESAT-STADIUS, KU Leuven, Leuven, Belgium. ([PDF](/assets/pdf/Krylov2026.pdf))
+2. Widdershoven, R., Govindarajan, N., De Lathauwer, L. (2025). [Fast Macaulay null space through the intersection of shifted null spaces](). Technical Report 25-56, ESAT-STADIUS, KU Leuven. ([PDF](https://ftp.esat.kuleuven.be/pub/stadius//rwidders/widdershoven2025mini_preprint.pdf))([code](https://www.tensorlabplus.net/papers/widdershoven2025mini.html))
+3. Chandrasekaran, S., Epperly, E. N., Govindarajan, N. (2019). [Graph-induced rank structures and their representations](https://arxiv.org/abs/1911.05858). *arXiv preprint* arXiv:1911.05858 [math.NA]. ([PDF](https://arxiv.org/pdf/1911.05858.pdf))
 
 #### Dissertation
 1. Govindarajan, N. (2018). [Periodic approximations and spectral analysis of the Koopman operator: theory and applications](https://www.proquest.com/openview/8460f34e200557d7601c851619e1e108/1?pq-origsite=gscholar&cbl=18750&diss=y). PhD thesis. University of California Santa Barbara ([PDF](https://escholarship.org/content/qt7bf6218t/qt7bf6218t.pdf))
